@@ -37,4 +37,6 @@ const ads = [
 // app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
+app.listen(3005);
+
 module.exports = app;

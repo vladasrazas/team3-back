@@ -1,3 +1,31 @@
+Hi Nikita, it's still not on the cloud but I put some backend into my repo in dockerhub.
+You can download it:
+docker pull vladisibm/team3-backend
+And run:
+docker run -p 3000:3000 vladisibm/team3-backend
+The you can go to this URL to try existing API:
+http://localhost:3000/explorer/#/
+
+9:22
+Now it's not our backend it is sample loopback 4 backend :slightly_smiling_face: so we will have to talk which of OUR services I should starting working on first. I'll pick the one that you are going to work on first
+9:22
+Also if you need a code and don't want to use docker then code is here : https://github.com/vladasrazas/team3-back
+
+vladasrazas/team3-back
+Language
+TypeScript
+Last updated
+an hour ago
+<https://github.com/vladasrazas/team3-back|vladasrazas/team3-back>vladasrazas/team3-back | Today at 7:05 AM | Added by a bot
+9:23
+then you can download it locally and run :
+npm i
+npm start
+9:23
+Still I have to work to install this in cloud.
+
+This is from original app:
+
 # @loopback/example-todo
 
 This is the basic tutorial for getting started with Loopback 4!

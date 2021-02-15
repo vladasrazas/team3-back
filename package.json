@@ -57,6 +57,9 @@
     "openapi-spec": "node ./dist/openapi-spec",
     "rebuild": "npm run clean && npm run build",
     "prestart": "npm run rebuild",
+    "docker:build": "docker build -t team3-backend .",
+    "docker:run": "docker run -p 3000:3000 -d team3-backend",
+    "docker:push": "docker tag team3-backend:latest vladisibm/team3-backend:latest && docker push vladisibm/team3-backend:latest",
     "start": "node ."
   },
   "repository": {

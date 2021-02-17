@@ -1,19 +1,19 @@
 import {Entity, model, property} from '@loopback/repository';
 
 @model()
-export class Request extends Entity {
-  @property({
-    type: 'string',
-    required: true,
-  })
-  user_id: string;
-
+export class RequestModel extends Entity {
   @property({
     type: 'string',
     id: true,
     generated: true,
   })
   id?: string;
+
+  @property({
+    type: 'string',
+    required: true,
+  })
+  user_id: string;
 
   @property({
     type: 'array',
@@ -34,14 +34,19 @@ export class Request extends Entity {
   })
   requested_date: string;
 
+  @property({
+    type: 'string',
+  })
+  description?: string;
 
-  constructor(data?: Partial<Request>) {
+
+  constructor(data?: Partial<RequestModel>) {
     super(data);
   }
 }
 
-export interface RequestRelations {
+export interface RequestModelRelations {
   // describe navigational properties here
 }
 
-export type RequestWithRelations = Request & RequestRelations;
+export type RequestModelWithRelations = RequestModel & RequestModelRelations;

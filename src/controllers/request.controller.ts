@@ -17,134 +17,134 @@ import {
   requestBody,
   response,
 } from '@loopback/rest';
-import {Request} from '../models';
-import {RequestRepository} from '../repositories';
+import {RequestModel} from '../models';
+import {RequestModelRepository} from '../repositories';
 
 export class RequestController {
   constructor(
-    @repository(RequestRepository)
-    public requestRepository : RequestRepository,
+    @repository(RequestModelRepository)
+    public requestModelRepository : RequestModelRepository,
   ) {}
 
-  @post('/requests')
+  @post('/request')
   @response(200, {
-    description: 'Request model instance',
-    content: {'application/json': {schema: getModelSchemaRef(Request)}},
+    description: 'RequestModel model instance',
+    content: {'application/json': {schema: getModelSchemaRef(RequestModel)}},
   })
   async create(
     @requestBody({
       content: {
         'application/json': {
-          schema: getModelSchemaRef(Request, {
-            title: 'NewRequest',
+          schema: getModelSchemaRef(RequestModel, {
+            title: 'NewRequestModel',
             exclude: ['id'],
           }),
         },
       },
     })
-    request: Omit<Request, 'id'>,
-  ): Promise<Request> {
-    return this.requestRepository.create(request);
+    requestModel: Omit<RequestModel, 'id'>,
+  ): Promise<RequestModel> {
+    return this.requestModelRepository.create(requestModel);
   }
 
-  @get('/requests/count')
+  @get('/request/count')
   @response(200, {
-    description: 'Request model count',
+    description: 'RequestModel model count',
     content: {'application/json': {schema: CountSchema}},
   })
   async count(
-    @param.where(Request) where?: Where<Request>,
+    @param.where(RequestModel) where?: Where<RequestModel>,
   ): Promise<Count> {
-    return this.requestRepository.count(where);
+    return this.requestModelRepository.count(where);
   }
 
-  @get('/requests')
+  @get('/request')
   @response(200, {
-    description: 'Array of Request model instances',
+    description: 'Array of RequestModel model instances',
     content: {
       'application/json': {
         schema: {
           type: 'array',
-          items: getModelSchemaRef(Request, {includeRelations: true}),
+          items: getModelSchemaRef(RequestModel, {includeRelations: true}),
         },
       },
     },
   })
   async find(
-    @param.filter(Request) filter?: Filter<Request>,
-  ): Promise<Request[]> {
-    return this.requestRepository.find(filter);
+    @param.filter(RequestModel) filter?: Filter<RequestModel>,
+  ): Promise<RequestModel[]> {
+    return this.requestModelRepository.find(filter);
   }
 
-  @patch('/requests')
+  @patch('/request')
   @response(200, {
-    description: 'Request PATCH success count',
+    description: 'RequestModel PATCH success count',
     content: {'application/json': {schema: CountSchema}},
   })
   async updateAll(
     @requestBody({
       content: {
         'application/json': {
-          schema: getModelSchemaRef(Request, {partial: true}),
+          schema: getModelSchemaRef(RequestModel, {partial: true}),
         },
       },
     })
-    request: Request,
-    @param.where(Request) where?: Where<Request>,
+    requestModel: RequestModel,
+    @param.where(RequestModel) where?: Where<RequestModel>,
   ): Promise<Count> {
-    return this.requestRepository.updateAll(request, where);
+    return this.requestModelRepository.updateAll(requestModel, where);
   }
 
-  @get('/requests/{id}')
+  @get('/request/{id}')
   @response(200, {
-    description: 'Request model instance',
+    description: 'RequestModel model instance',
     content: {
       'application/json': {
-        schema: getModelSchemaRef(Request, {includeRelations: true}),
+        schema: getModelSchemaRef(RequestModel, {includeRelations: true}),
       },
     },
   })
   async findById(
     @param.path.string('id') id: string,
-    @param.filter(Request, {exclude: 'where'}) filter?: FilterExcludingWhere<Request>
-  ): Promise<Request> {
-    return this.requestRepository.findById(id, filter);
+    @param.filter(RequestModel, {exclude: 'where'}) filter?: FilterExcludingWhere<RequestModel>
+  ): Promise<RequestModel> {
+    return this.requestModelRepository.findById(id, filter);
   }
 
-  @patch('/requests/{id}')
+  @patch('/request/{id}')
   @response(204, {
-    description: 'Request PATCH success',
+    description: 'RequestModel PATCH success',
   })
   async updateById(
     @param.path.string('id') id: string,
     @requestBody({
       content: {
         'application/json': {
-          schema: getModelSchemaRef(Request, {partial: true}),
+          schema: getModelSchemaRef(RequestModel, {partial: true}),
         },
       },
     })
-    request: Request,
+    requestModel: RequestModel,
   ): Promise<void> {
-    await this.requestRepository.updateById(id, request);
+    await this.requestModelRepository.updateById(id, requestModel);
   }
 
-  @put('/requests/{id}')
+  @put('/request/{id}')
   @response(204, {
-    description: 'Request PUT success',
+    description: 'RequestModel PUT success',
   })
   async replaceById(
     @param.path.string('id') id: string,
-    @requestBody() request: Request,
+    @requestBody() requestModel: RequestModel,
   ): Promise<void> {
-    await this.requestRepository.replaceById(id, request);
+    await this.requestModelRepository.replaceById(id, requestModel);
   }
 
-  @del('/requests/{id}')
+  @del('/request/{id}')
   @response(204, {
-    description: 'Request DELETE success',
+    description: 'RequestModel DELETE success',
   })
   async deleteById(@param.path.string('id') id: string): Promise<void> {
-    await this.requestRepository.deleteById(id);
+    await this.requestModelRepository.deleteById(id);
   }
 }

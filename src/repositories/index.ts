@@ -4,4 +4,4 @@
 // License text available at https://opensource.org/licenses/MIT
 
 export * from './todo.repository';
-export * from './request.repository';
+export * from './request-model.repository';

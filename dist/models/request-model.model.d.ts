@@ -6,6 +6,7 @@ export declare class RequestModel extends Entity {
     requested_time: string;
     requested_date: string;
     description?: string;
+    is_open: boolean;
     constructor(data?: Partial<RequestModel>);
 }
 export interface RequestModelRelations {

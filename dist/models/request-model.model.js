@@ -51,6 +51,13 @@ tslib_1.__decorate([
     }),
     tslib_1.__metadata("design:type", String)
 ], RequestModel.prototype, "description", void 0);
+tslib_1.__decorate([
+    repository_1.property({
+        type: 'boolean',
+        required: false
+    }),
+    tslib_1.__metadata("design:type", Boolean)
+], RequestModel.prototype, "is_open", void 0);
 RequestModel = tslib_1.__decorate([
     repository_1.model(),
     tslib_1.__metadata("design:paramtypes", [Object])

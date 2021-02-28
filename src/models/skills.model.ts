@@ -52,6 +52,12 @@ export class Skills extends Entity {
   })
   profile_picture: string;
 
+  @property({
+    type: 'string',
+    required: true,
+  })
+  rating: string;
+
 
   constructor(data?: Partial<Skills>) {
     super(data);

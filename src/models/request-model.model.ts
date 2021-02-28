@@ -45,6 +45,12 @@ export class RequestModel extends Entity {
   })
   is_open: boolean;
 
+  @property({
+    type: 'boolean',
+    required: false
+  })
+  is_matched: boolean;
+
   constructor(data?: Partial<RequestModel>) {
     super(data);
   }

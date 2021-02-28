@@ -3,6 +3,8 @@ export declare class Skills extends Entity {
     id?: number;
     user_id: string;
     user_name: string;
+    email_address: string;
+    phone_number: string;
     skills_offered: string[];
     availability: boolean;
     profile_picture: string;

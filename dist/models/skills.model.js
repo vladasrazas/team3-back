@@ -32,6 +32,20 @@ tslib_1.__decorate([
 ], Skills.prototype, "user_name", void 0);
 tslib_1.__decorate([
     repository_1.property({
+        type: 'string',
+        required: true,
+    }),
+    tslib_1.__metadata("design:type", String)
+], Skills.prototype, "email_address", void 0);
+tslib_1.__decorate([
+    repository_1.property({
+        type: 'string',
+        required: true,
+    }),
+    tslib_1.__metadata("design:type", String)
+], Skills.prototype, "phone_number", void 0);
+tslib_1.__decorate([
+    repository_1.property({
         type: 'array',
         itemType: 'string',
         required: true,

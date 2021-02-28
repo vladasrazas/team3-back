@@ -14,7 +14,13 @@ WORKDIR /home/node/app
 # where available (npm@5+)
 COPY --chown=node:node package*.json ./
 
+# This is risky - remove if not good idea.
+RUN sudo chmod -R 777 /home/node
+
 RUN npm install
+
+# This is risky - remove if not good idea.
+RUN sudo chmod -R 777 /home/node
 
 # Bundle app source code
 COPY --chown=node:node . .

@@ -1732,8 +1732,8 @@
         "affectsGlobalScope": false
       },
       "./src/models/request-model.model.ts": {
-        "version": "85f18a59ce7a75b865bc64257d3015a083ad6b4f4b3f80dc25d5908fc27e234f",
-        "signature": "d451c4299b8b5236d8f959ac1ee823c397f8a6f5077ccad6064a219b4c505d9e",
+        "version": "85894b15a6d1c4e3558c479fdf97e816c88d4f1f54f076b75cfc8c7f64f00855",
+        "signature": "35933c30c5ae2106dd3f288b871f0d7d264577371e33e56e86075014389ac5ac",
         "affectsGlobalScope": false
       },
       "./src/models/skills.model.ts": {

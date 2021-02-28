@@ -1,8 +1,10 @@
 # Check out https://hub.docker.com/_/node to select a new base image
 FROM node:10-slim
 
+RUN useradd -ms /bin/bash admin
+
 # Set to a non-root built-in user `node`
-USER node
+# USER node
 
 # Create app directory (with user `node`)
 RUN mkdir -p /home/node/app
@@ -14,8 +16,7 @@ WORKDIR /home/node/app
 # where available (npm@5+)
 COPY --chown=node:node package*.json ./
 
-RUN chgrp -R 0 /home/node/ && \
-    chmod -R g=u /home/node/ 
+
 
 RUN npm install
 
@@ -23,6 +24,13 @@ RUN npm install
 
 # Bundle app source code
 COPY --chown=node:node . .
+
+RUN chown -R admin:admin /home/node/app
+
+RUN chgrp -R 0 /home/node/ && \
+    chmod -R g=u /home/node/ 
+
+USER admin
 
 RUN npm run build
 

@@ -22,6 +22,18 @@ export class Skills extends Entity {
   user_name: string;
 
   @property({
+    type: 'string',
+    required: true,
+  })
+  email_address: string;
+
+  @property({
+    type: 'string',
+    required: true,
+  })
+  phone_number: string;
+
+  @property({
     type: 'array',
     itemType: 'string',
     required: true,

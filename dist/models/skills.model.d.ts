@@ -8,6 +8,7 @@ export declare class Skills extends Entity {
     skills_offered: string[];
     availability: boolean;
     profile_picture: string;
+    rating: string;
     constructor(data?: Partial<Skills>);
 }
 export interface SkillsRelations {

@@ -66,6 +66,13 @@ tslib_1.__decorate([
     }),
     tslib_1.__metadata("design:type", String)
 ], Skills.prototype, "profile_picture", void 0);
+tslib_1.__decorate([
+    repository_1.property({
+        type: 'string',
+        required: true,
+    }),
+    tslib_1.__metadata("design:type", String)
+], Skills.prototype, "rating", void 0);
 Skills = tslib_1.__decorate([
     repository_1.model(),
     tslib_1.__metadata("design:paramtypes", [Object])

@@ -4,11 +4,9 @@ exports.RequestModelRepository = void 0;
 const tslib_1 = require("tslib");
 const core_1 = require("@loopback/core");
 const repository_1 = require("@loopback/repository");
-// import {MongodbDataSource} from '../datasources';
 const datasources_1 = require("../datasources");
 const models_1 = require("../models");
 let RequestModelRepository = class RequestModelRepository extends repository_1.DefaultCrudRepository {
-    //VLADAS
     constructor(dataSource) {
         super(models_1.RequestModel, dataSource);
     }

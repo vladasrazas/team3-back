@@ -1,7 +1,17 @@
 import {Entity, model, property} from '@loopback/repository';
 
-@model()
+@model({
+  settings: {strict: false},
+  name: 'requests',
+  plural: 'requests',
+  options: {
+    mongodb: {
+      collection: 'requests',
+    },
+  },
+})
 export class RequestModel extends Entity {
+
   @property({
     type: 'string',
     id: true,

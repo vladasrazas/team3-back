@@ -1727,12 +1727,12 @@
         "affectsGlobalScope": false
       },
       "./src/models/request-model.model.ts": {
-        "version": "d818f06f1f4f06a20aaf56a53ee06d8b1dd00ec9127894d458764304379635b5",
+        "version": "1ae6a2d592d1446d5dda417d75a9eb085e145eda6c9fac2736ff8353c315880b",
         "signature": "344a916a2a345641f328af2299ef1b1eb72a25f34cea5213952ed61f23114357",
         "affectsGlobalScope": false
       },
       "./src/models/skills.model.ts": {
-        "version": "f7030db1c5c44f292a32c333c242c32529be63708a40036ba4369e30417e1dc3",
+        "version": "013621c7eae59f54d0bf251d0bba91fd7d91953a6548fd0c4765d2341ee54492",
         "signature": "7b070d4de244b3bb566046bcff5199aaffbe2837fbef5532ed00c8e3f89b99d5",
         "affectsGlobalScope": false
       },
@@ -1746,19 +1746,24 @@
         "signature": "ca24c049ad43a58a1f0ff5f776a80a80b638fea1789572a35e1b330e37c7cac3",
         "affectsGlobalScope": false
       },
+      "./src/datasources/mongodb.datasource.ts": {
+        "version": "1287668eeef97bfe123fceeb32993b6b01d46b6437a0e8b8e49763f95717f1a9",
+        "signature": "937d1e5807c8fb66fb5a6af15bc4ea3bbb8981e61a584abb65434c3df7825b90",
+        "affectsGlobalScope": false
+      },
       "./src/datasources/index.ts": {
-        "version": "02cf2ddd577fdee637d42ac7986222c4f65d8db60e27f73a83ea3bb9a4cbd56f",
-        "signature": "537dd21cdb932491bca04b418b9582009f52a8a6b403a48d224cf3f2d0df545a",
+        "version": "12e321c91128fa8a00f09d84b8048dd15e0fa77794c0ff35c6bf77239645d64a",
+        "signature": "fb56b267083f37aa76133584fc2d971c4d27e6e26b87b2bdd6d1999434b65158",
         "affectsGlobalScope": false
       },
       "./src/repositories/request-model.repository.ts": {
-        "version": "8be02855514b650ef1f569c8a6c1311de56f5f8a81f38d2a4f3c0a8ad3911d5f",
-        "signature": "317866affefa344e6372a28f4fcb23b25a2d79ccf30e583c07f082ebb0439f2e",
+        "version": "fd1d1a0b26f4ddf1b08d77dc87cc427eae0a2ccfcedea841dfa7493d228ee437",
+        "signature": "14fb2e4c2ae875f30876552b0467010580d6d761f7b3ff373fa1f16949ac61db",
         "affectsGlobalScope": false
       },
       "./src/repositories/skills.repository.ts": {
-        "version": "cbe4a02aa4dcb9ff39ae0987dc2bef4af3f21e2de418af037a730ee4d8c9f4f5",
-        "signature": "7960782684186b4cddc8ce1dfcdc37e50904ebdceabddbd3b3c6f7a7c6d687ef",
+        "version": "7fab79b13701911c13742b92c82480b8794bf7c373f0d9de27aa9e9ad7e66a5b",
+        "signature": "5154da204d384a20e3e7075563e194e3cc2cafc77466e773d3c471bacb83d064",
         "affectsGlobalScope": false
       },
       "./src/repositories/index.ts": {
@@ -3646,7 +3651,13 @@
       ],
       "./src/datasources/index.ts": [
         "./node_modules/tslib/tslib.d.ts",
-        "./src/datasources/db.datasource.ts"
+        "./src/datasources/db.datasource.ts",
+        "./src/datasources/mongodb.datasource.ts"
+      ],
+      "./src/datasources/mongodb.datasource.ts": [
+        "./node_modules/@loopback/core/dist/index.d.ts",
+        "./node_modules/@loopback/repository/dist/index.d.ts",
+        "./node_modules/tslib/tslib.d.ts"
       ],
       "./src/index.ts": [
         "./node_modules/@loopback/rest/dist/index.d.ts",
@@ -5384,7 +5395,12 @@
         "./node_modules/@loopback/repository/dist/index.d.ts"
       ],
       "./src/datasources/index.ts": [
-        "./src/datasources/db.datasource.ts"
+        "./src/datasources/db.datasource.ts",
+        "./src/datasources/mongodb.datasource.ts"
+      ],
+      "./src/datasources/mongodb.datasource.ts": [
+        "./node_modules/@loopback/core/dist/index.d.ts",
+        "./node_modules/@loopback/repository/dist/index.d.ts"
       ],
       "./src/index.ts": [
         "./node_modules/@loopback/rest/dist/index.d.ts",
@@ -5795,6 +5811,7 @@
       "./src/controllers/skills.controller.ts",
       "./src/datasources/db.datasource.ts",
       "./src/datasources/index.ts",
+      "./src/datasources/mongodb.datasource.ts",
       "./src/index.ts",
       "./src/migrate.ts",
       "./src/models/index.ts",

@@ -1,6 +1,15 @@
 import {Entity, model, property} from '@loopback/repository';
 
-@model()
+@model({
+  settings: {strict: false},
+  name: 'skills',
+  plural: 'skills',
+  options: {
+    mongodb: {
+      collection: 'skills',
+    },
+  },
+})
 export class Skills extends Entity {
   @property({
     type: 'number',

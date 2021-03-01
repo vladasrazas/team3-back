@@ -12,8 +12,8 @@ let SkillsRepository = class SkillsRepository extends repository_1.DefaultCrudRe
     }
 };
 SkillsRepository = tslib_1.__decorate([
-    tslib_1.__param(0, core_1.inject('datasources.db')),
-    tslib_1.__metadata("design:paramtypes", [datasources_1.DbDataSource])
+    tslib_1.__param(0, core_1.inject('datasources.mongodb')),
+    tslib_1.__metadata("design:paramtypes", [datasources_1.MongodbDataSource])
 ], SkillsRepository);
 exports.SkillsRepository = SkillsRepository;
 //# sourceMappingURL=skills.repository.js.map

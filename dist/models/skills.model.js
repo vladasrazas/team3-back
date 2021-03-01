@@ -74,7 +74,16 @@ tslib_1.__decorate([
     tslib_1.__metadata("design:type", String)
 ], Skills.prototype, "rating", void 0);
 Skills = tslib_1.__decorate([
-    repository_1.model(),
+    repository_1.model({
+        settings: { strict: false },
+        name: 'skills',
+        plural: 'skills',
+        options: {
+            mongodb: {
+                collection: 'skills',
+            },
+        },
+    }),
     tslib_1.__metadata("design:paramtypes", [Object])
 ], Skills);
 exports.Skills = Skills;

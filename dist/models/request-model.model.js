@@ -66,7 +66,16 @@ tslib_1.__decorate([
     tslib_1.__metadata("design:type", Boolean)
 ], RequestModel.prototype, "is_matched", void 0);
 RequestModel = tslib_1.__decorate([
-    repository_1.model(),
+    repository_1.model({
+        settings: { strict: false },
+        name: 'requests',
+        plural: 'requests',
+        options: {
+            mongodb: {
+                collection: 'requests',
+            },
+        },
+    }),
     tslib_1.__metadata("design:paramtypes", [Object])
 ], RequestModel);
 exports.RequestModel = RequestModel;

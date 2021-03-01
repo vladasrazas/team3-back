@@ -12,8 +12,8 @@ let RequestModelRepository = class RequestModelRepository extends repository_1.D
     }
 };
 RequestModelRepository = tslib_1.__decorate([
-    tslib_1.__param(0, core_1.inject('datasources.db')),
-    tslib_1.__metadata("design:paramtypes", [datasources_1.DbDataSource])
+    tslib_1.__param(0, core_1.inject('datasources.mongodb')),
+    tslib_1.__metadata("design:paramtypes", [datasources_1.MongodbDataSource])
 ], RequestModelRepository);
 exports.RequestModelRepository = RequestModelRepository;
 //# sourceMappingURL=request-model.repository.js.map

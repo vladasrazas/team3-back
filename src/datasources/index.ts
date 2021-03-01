@@ -4,6 +4,4 @@
 // License text available at https://opensource.org/licenses/MIT
 
 export * from './db.datasource';
-export * from './geocoder.datasource';
-// VLADAS
-// export * from './mongodb.datasource';
+

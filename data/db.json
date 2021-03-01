@@ -1,17 +1,9 @@
 {
   "ids": {
-    "Todo": 6,
     "RequestModel": 4,
     "Skills": 3
   },
   "models": {
-    "Todo": {
-      "1": "{\"title\":\"Take over the galaxy\",\"desc\":\"MWAHAHAHAHAHAHAHAHAHAHAHAHAMWAHAHAHAHAHAHAHAHAHAHAHAHA\",\"id\":1}",
-      "2": "{\"title\":\"destroy alderaan\",\"desc\":\"Make sure there are no survivors left!\",\"id\":2}",
-      "3": "{\"title\":\"play space invaders\",\"desc\":\"Become the very best!\",\"id\":3}",
-      "4": "{\"title\":\"crush rebel scum\",\"desc\":\"Every.Last.One.\",\"id\":4}",
-      "5": "{\"title\":\"My todo\",\"desc\":\"description\",\"isComplete\":false,\"remindAtAddress\":\"123,456\",\"remindAtGeo\":\"89.999985,-57.40231\",\"id\":5}"
-    },
     "RequestModel": {
       "1": "{\"user_id\":\"007\",\"skills_required\":[\"skill11\"],\"requested_time\":\"11:30\",\"requested_date\":\"2020-12-30\",\"description\":\"description 007\",\"is_open\":true, \"is_matched\":false, \"id\":\"3\"}"
     },

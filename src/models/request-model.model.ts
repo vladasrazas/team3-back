@@ -62,6 +62,24 @@ export class RequestModel extends Entity {
     required: false
   })
   performer_id: string;
+  
+  @property({
+    type: 'string',
+    required: false
+  })
+  reviewRating: string;
+  
+  @property({
+    type: 'string',
+    required: false
+  })
+  reviewCompliment: string;
+  
+  @property({
+    type: 'string',
+    required: false
+  })
+  reviewComment: string;
 
   constructor(data?: Partial<RequestModel>) {
     super(data);

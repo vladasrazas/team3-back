@@ -50,6 +50,17 @@ export class RequestModel extends Entity {
     required: false
   })
   is_matched: boolean;
+  
+  @property({
+    type: 'boolean',
+    required: false
+  })
+  is_confirmed: boolean;
+  
+  @property({
+    type: 'string',
+  })
+  performer_id: string;
 
   constructor(data?: Partial<RequestModel>) {
     super(data);

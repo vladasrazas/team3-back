@@ -13,7 +13,7 @@
       "5": "{\"title\":\"My todo\",\"desc\":\"description\",\"isComplete\":false,\"remindAtAddress\":\"123,456\",\"remindAtGeo\":\"89.999985,-57.40231\",\"id\":5}"
     },
     "RequestModel": {
-      "1": "{\"user_id\":\"007\",\"skills_required\":[\"skill11\"],\"requested_time\":\"11:30\",\"requested_date\":\"2020-12-30\",\"description\":\"description 007\",\"is_open\":true, \"is_matched\":false, \"id\":\"3\"}"
+      "1": "{\"user_id\":\"007\",\"skills_required\":[\"skill11\"],\"requested_time\":\"11:30\",\"requested_date\":\"2020-12-30\",\"description\":\"description 007\",\"is_open\":true, \"is_matched\":false, \"is_confirmed\":false, \"performer_id\": \"test\", \"id\":\"3\"}"
     },
     "Skills": {
       "2": "{\"user_id\":\"volunteer1\",\"user_name\":\"Jon Bloggs\",\"email_address\":\"jon.bloggs@gmail.com\",\"phone_number\":\"+447312223498\",\"skills_offered\":[\"Plumbing\"],\"availability\":true,\"profile_picture\":\"https://team3-userinfo.s3.eu-gb.cloud-object-storage.appdomain.cloud/plumber.png\", \"rating\": \"5\",\"id\":2}"

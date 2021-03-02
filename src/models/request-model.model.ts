@@ -59,6 +59,7 @@ export class RequestModel extends Entity {
   
   @property({
     type: 'string',
+    required: false
   })
   performer_id: string;
 

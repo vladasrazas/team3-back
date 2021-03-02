@@ -1718,82 +1718,92 @@
       },
       "./src/sequence.ts": {
         "version": "aa4d8702190eb5cd5c7410554e153b76292c641b4b07dad7b97342f287960fdc",
-        "signature": "4399c2b2ec8004633d4c5a6aca0d491f461af2631ba9157ea54a6b7b2993d0a6",
+        "signature": "92ce26be36f17f312491d49afe2a3c0b425dc1bc7cced81a7032eccdad10242a",
         "affectsGlobalScope": false
       },
       "./src/application.ts": {
         "version": "99650efd8a196f1ac9c7a2ab4e3097d8e046ed6296e662f9355c19c3c0b80776",
-        "signature": "7fdbf6b58564ad656f3591ae4dec7c7806fe178e9468c59d122b1a86dce9d752",
+        "signature": "7890fcfc09463d8c456f9b07375b30a50fb85014e3e7416ea0670cc256e6e31c",
         "affectsGlobalScope": false
       },
       "./src/models/todo.model.ts": {
-        "version": "aa9b3ec798f20ca99ea69295cb6f77a270decdebc1dc1cf3a8d34c3a08257ae1",
-        "signature": "25f28312c770c55061f5f67cfdc7809ae998fe86daaa8b7e7b818c8e6e10dfd7",
+        "version": "a32cc8e90b02d2809800d8674ef08b4737a8b8554cd333447ed8e3fe83801828",
+        "signature": "44fb41d368b9869255c0b2b452ad1f0a219b95c092fd7a6aab7c724ef1314b9e",
         "affectsGlobalScope": false
       },
       "./src/models/request-model.model.ts": {
-        "version": "85894b15a6d1c4e3558c479fdf97e816c88d4f1f54f076b75cfc8c7f64f00855",
-        "signature": "35933c30c5ae2106dd3f288b871f0d7d264577371e33e56e86075014389ac5ac",
+        "version": "d818f06f1f4f06a20aaf56a53ee06d8b1dd00ec9127894d458764304379635b5",
+        "signature": "344a916a2a345641f328af2299ef1b1eb72a25f34cea5213952ed61f23114357",
         "affectsGlobalScope": false
       },
       "./src/models/skills.model.ts": {
-        "version": "3593e5c448a30acfe07758ccadc2d36f54a732e084ebbcd957ef40441e4efe07",
-        "signature": "2baa55bcd8785154ffe4182883b698f34c7a6bbf702e98d0bf1c4d207c6f5517",
+        "version": "f7030db1c5c44f292a32c333c242c32529be63708a40036ba4369e30417e1dc3",
+        "signature": "7b070d4de244b3bb566046bcff5199aaffbe2837fbef5532ed00c8e3f89b99d5",
+        "affectsGlobalScope": false
+      },
+      "./src/models/users.model.ts": {
+        "version": "3dc303f8ed6189bd1037e56c49bb6a9ae52234b1bc95f03a826e49079349f139",
+        "signature": "883a4c99f632efc87d0d4edba25ea622d0d55411b52cfa392253b414ef94f8d7",
         "affectsGlobalScope": false
       },
       "./src/models/index.ts": {
-        "version": "cc0ed5a08953e25536258dbf3da5da3207f362c5c2e257e98b8680d3c749163f",
-        "signature": "ea80761d3a0b2bb8a8f016c1d8d41f40af70591d7069feb93e8b4686d4ced830",
+        "version": "172c18c0297c86a4a9542872d6ebc24cd0ef55ffa9ce8b36ddecda0b4758dc9d",
+        "signature": "283784e9c3bfcb95d2f7ec174943301766cf2d9782a163f2b9ab021d14dccc11",
         "affectsGlobalScope": false
       },
       "./src/datasources/db.datasource.ts": {
-        "version": "741e19c0957468f36a3a9d4222482ead5a451b086d458013022f52b0a78c51bb",
-        "signature": "07560668d95778bab29d88523a63f8e27d9875fff72aff19836d22f4c25456af",
+        "version": "de714f8719b9fd12e31025b74268bc5f458b27f8b97631395511477a214c4027",
+        "signature": "ca24c049ad43a58a1f0ff5f776a80a80b638fea1789572a35e1b330e37c7cac3",
         "affectsGlobalScope": false
       },
       "./src/datasources/geocoder.datasource.ts": {
-        "version": "dd4d0538998914e96bfe2d304c942bfdddacaf28a7df5e0d13d9d7d34bca4077",
-        "signature": "46f6bbfd6f9ccedea1666a19da4fd5b1f5da79ad43a6b7354704986c5539f930",
+        "version": "76b4266af3bfdfdf39dcd5ee765d9a9ae6b7de45f4f12a7dbbba0e6ae317c0b3",
+        "signature": "73b39d618f134c1d57f9df77bf8ff6df9ac6034d3567999b639e49da6ebd5539",
         "affectsGlobalScope": false
       },
       "./src/datasources/index.ts": {
-        "version": "1a444f79b8bd4abb07189db9e8568662b4f8b2ad5e116dd95b0093772d2cb56c",
-        "signature": "4163095d9cc9ef497e9265828707bcd55405dd37eb1bad06282e2080ece155a1",
+        "version": "81e52d9612f06419044febfcd75f9f789fa6a05c912801d10d221a982416628f",
+        "signature": "ecc42f90089fe4724c037dc6e400706fdef1c42b5ed566454b0c0c3e09c2cdaf",
         "affectsGlobalScope": false
       },
       "./src/repositories/todo.repository.ts": {
-        "version": "d18a669e6d855052717472a98837fe93f0f6a80905f5f9281599f56835192489",
-        "signature": "bf33159195a2e151212001b67c6661617da49d4f6fa05dddc3186a21d8b26ef3",
+        "version": "7526ac206002b4cdf89b0784eb54acdaff211f59630e2cafd1d3ecf9e3eb7b3c",
+        "signature": "5631754491d7091bd14fa3ffd0f64d0308e59d1e99c723823aa431b2bd40b485",
         "affectsGlobalScope": false
       },
       "./src/repositories/request-model.repository.ts": {
-        "version": "5e435bfb6c81170a298e69fd7532527c0847653f78c45d9e499153d4f780a24f",
-        "signature": "0749f69328c1c3396aa58e53bf3154ecdea2587448e792df2f22f65b345d8c20",
+        "version": "245c8c6a4a32c0a6685a420b5c37956ce99e48518e61bbe5749c43abe823e2f2",
+        "signature": "317866affefa344e6372a28f4fcb23b25a2d79ccf30e583c07f082ebb0439f2e",
         "affectsGlobalScope": false
       },
       "./src/repositories/skills.repository.ts": {
-        "version": "14007155c714a7c66a8028d5cb3a3a9a52ddf6f61ed8f1bc61a8e56725e0327a",
-        "signature": "6bc995fd93199513fce2dbce8fe6d2c51866ad5a6ae79274b0655b6cf77f9625",
+        "version": "cbe4a02aa4dcb9ff39ae0987dc2bef4af3f21e2de418af037a730ee4d8c9f4f5",
+        "signature": "7960782684186b4cddc8ce1dfcdc37e50904ebdceabddbd3b3c6f7a7c6d687ef",
+        "affectsGlobalScope": false
+      },
+      "./src/repositories/users.repository.ts": {
+        "version": "7c4908b2a16873af1535b9d7d057d2b41ad6fede6bc8b2deddec17edcd97ef32",
+        "signature": "78551b353f2277831f6880276758d976f30d55040c5c4f8c5e39ae12a068d19e",
         "affectsGlobalScope": false
       },
       "./src/repositories/index.ts": {
-        "version": "7af85d7ed98896f38e767930d42f6eee9e4a1a8e253219679f93de9188890577",
-        "signature": "f76afac719c810c37851e0b18571f213cf59fabb5efc2b21b0854d42d0a82124",
+        "version": "ffe80df8553e66fad66b1b5ad53c32bc9812cae4f0d61fafb9cfdc4dc13682e3",
+        "signature": "e305ab627ba77babc4dd29389869bdb894b1c2deab004cc1153f55149fe8e95e",
         "affectsGlobalScope": false
       },
       "./src/index.ts": {
         "version": "9b52e05ad2d51e7b903c567558bf47d77c267bac68e495ac37828d73cc4928dd",
-        "signature": "eb9b00a29a341668aba4379e10cbee69f0a90644fd64fa2c46c2a53852f79391",
+        "signature": "b48c025c91d1073811192363f2627972fa16404ec73c39a75bb59dd8501d69dd",
         "affectsGlobalScope": false
       },
       "./src/migrate.ts": {
         "version": "9ae750f4d29abcd95af1f788bc6c61e42f90cb6e18cea6978b9596baea8b4bad",
-        "signature": "d289609b56df6411204c89f5197dc2d4d19910336a10c86cd9b3af21b22e344d",
+        "signature": "e9b8dbbcc0cb738d2836845996cec05b75916fe8314d6d515028b0cab71df9c9",
         "affectsGlobalScope": false
       },
       "./src/openapi-spec.ts": {
         "version": "8e54929bb0fea6c3b1f2eec1d654438e99cb0f3e1e50a500ecf4dc5b8079d6ee",
-        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6",
         "affectsGlobalScope": false
       },
       "./node_modules/@loopback/http-caching-proxy/dist/http-caching-proxy.d.ts": {
@@ -1872,13 +1882,13 @@
         "affectsGlobalScope": true
       },
       "./src/services/geocoder.service.ts": {
-        "version": "0ff7c4a8814b5a40bf1b949644f55cec6eeaa759744bdf20a2f36a1d80e5f935",
-        "signature": "f2dbb1cb9f363f5d13da82b3e689d4e2c1c623d6f5086572be6822de1362412c",
+        "version": "3cc0759f051f03473de19f274b05a5634825368828ffd5216243a99815a8526b",
+        "signature": "900121b1b73b37b93fa336327c3ce6a68e0137560ca26da696d2c7904d8a6cf1",
         "affectsGlobalScope": false
       },
       "./src/__tests__/helpers.ts": {
-        "version": "f6d4926a75a9c4ef69253ddf39c3e0f2d7e9e1008dfe1dd403bb1a273aa6eb71",
-        "signature": "d87656bf7fb3516d0212dee0a830c27a9f20ba7692814bb5b4a8b6c347924f87",
+        "version": "823fe3630a07affbdb3bf6b215018b9d20301e6a82c8e52f6ffa2ea7e6087d4f",
+        "signature": "f7a44ece5761627d5ecbaba7c734c6f7d9bc30d6e21a5fcd1ed637ff82a0a83a",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/cookiejar/index.d.ts": {
@@ -1977,53 +1987,58 @@
         "affectsGlobalScope": false
       },
       "./src/__tests__/acceptance/test-helper.ts": {
-        "version": "aeb4271fd12d312dbb39212b3a114de33450c3393e991c70a964d3065850e450",
-        "signature": "91ebdb901155657640ec8cdfc2cd6cc35386e9cd9db445274da6bd8e8da55477",
+        "version": "e060e18e51be3c3fada2f94ba66aba7b0c289ba0b5927145ed0e94364ee1dca9",
+        "signature": "771afd3536eb26f56597c952c6f62690e92388e5e37cf50620112c4d5244c0bc",
         "affectsGlobalScope": false
       },
       "./src/__tests__/acceptance/home-page.acceptance.ts": {
-        "version": "5530538bfdf81cf7c9bebab9243c17acd9dbb27931524d9964cc738e6528a1ba",
-        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "version": "511c2268f3ca3eb803fc43c85711f2d5ea19f588ad12916ba346f94b3f65cfc2",
+        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6",
         "affectsGlobalScope": false
       },
       "./src/services/index.ts": {
-        "version": "13b08bcf3cc0a25f65e26b3d0fa96a43f309c3fe1c3c30106f9dd68c61aee832",
-        "signature": "1ebc14b02817988bf047bc43179e9648c55e34841579f1bdcf15104986c6283b",
+        "version": "6d88f1457afb277f205d3c8ab93255cc7f071cd28bdbd4533be083203f5f50bb",
+        "signature": "378897f69b62374e325d4db8637838672604043d47c4cf2cb953bd87ab6f351a",
         "affectsGlobalScope": false
       },
       "./src/__tests__/acceptance/todo.acceptance.ts": {
-        "version": "6623aa270656df3af99bb14ba8b5ba865c7482faef1eb79d008179f5303f417c",
-        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "version": "66dbace00d26e854769f6e72af0f2b45dfd146ff242dd3b368ca465b0fb4e460",
+        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6",
         "affectsGlobalScope": false
       },
       "./src/__tests__/integration/services/geocoder.service.integration.ts": {
-        "version": "44a0c14ebad687595d8f72d66a33912a4458f8ddce259f353d53f14089ef8d52",
-        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "version": "7017d2aceb80ce9e005d4845bc28e387bbda22b25dfa77e3b58ba88427318a69",
+        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6",
         "affectsGlobalScope": false
       },
       "./src/controllers/todo.controller.ts": {
-        "version": "b36498d723ee6b4d4575fd18d2fe99347febe362fa26293fb749f500609c3a58",
-        "signature": "183b822fb2ee642eb85097efed45c4cfaa130126865a0f0b6de027690a46045c",
+        "version": "83ea07ef3ff4c10ab86c88d65592cb9e976770df0ceff78dadbd18cb59fc6278",
+        "signature": "e176ab3a585adf978fcd7bb822b942daed64c6d9c1c6168d35f81cf99a5f8f5b",
         "affectsGlobalScope": false
       },
       "./src/controllers/request.controller.ts": {
-        "version": "f8978c8f43e9edb796fc4992f7fafa5611e06859c39a55f9718c2beac5ddeb9e",
-        "signature": "7ee68bbf0c633e2d7015adebb1b3797ece2e4b6aa0d1125b721e96b4392c1487",
+        "version": "fea7bbee5fe07267bf3da401f88d9990d2ebf083c388f049fa03ed4dd6f0e618",
+        "signature": "49eec64bbf62c1129b6bed22bce51f0df07e382d39d5c8ff8fb48df3317c58fe",
         "affectsGlobalScope": false
       },
       "./src/controllers/skills.controller.ts": {
-        "version": "5f4214d6a1a9f77d4782882e6d39d9fa30f174b2e0b12edff99c746556f1893d",
-        "signature": "320646d03fcf51caafe7e88cfe6bf29d23547866e355d0e176ae044b1b7ebd18",
+        "version": "43a44a8c5c8ce3573e42f21d1612d7830efe1a1a578361a5ed31ec0961a3309e",
+        "signature": "db13dc229782c9d8a5540b6aa9d1ee03b094503a16428c58e3dec17b3af24cd6",
+        "affectsGlobalScope": false
+      },
+      "./src/controllers/users.controller.ts": {
+        "version": "d54f35bafa167eec66c98d6a6dfcc9fa98c7cde7b039eeece335c68f017a5bcc",
+        "signature": "8e0c657ff3b3eb028cd2d9ea348141777709eaf4e91d0f7b7686c40de8b2c68f",
         "affectsGlobalScope": false
       },
       "./src/controllers/index.ts": {
-        "version": "4ea07e94d64f0b3475fa93be1561f4e0f577d60a0e0dfaf6758c83b4f56469ec",
-        "signature": "e17cf2197c7b98ee34da8c5eb84731fbb1ede92150cb8a643c9da2f0ccd946f3",
+        "version": "0dea2fc2d592f88e2adfd87463b8989fca048426d136a09f9cb33f43163928b4",
+        "signature": "ee59bd462beec7565217aa9b5b025cf1f7374dd6ec134128f61f829c9a238f77",
         "affectsGlobalScope": false
       },
       "./src/__tests__/unit/controllers/todo.controller.unit.ts": {
-        "version": "5c57ef1928439903867ee68f3105ebc2e8d2eb5389a8c98ec211fd9a1ccd77ed",
-        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "version": "09f07b137270bc2c075bcefd18fed49cfb4b65a6ac946ab62e214eeea90b681f",
+        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/fs-extra/index.d.ts": {
@@ -3853,7 +3868,8 @@
         "./node_modules/tslib/tslib.d.ts",
         "./src/controllers/request.controller.ts",
         "./src/controllers/skills.controller.ts",
-        "./src/controllers/todo.controller.ts"
+        "./src/controllers/todo.controller.ts",
+        "./src/controllers/users.controller.ts"
       ],
       "./src/controllers/request.controller.ts": [
         "./node_modules/@loopback/repository/dist/index.d.ts",
@@ -3877,6 +3893,13 @@
         "./src/models/index.ts",
         "./src/repositories/index.ts",
         "./src/services/index.ts"
+      ],
+      "./src/controllers/users.controller.ts": [
+        "./node_modules/@loopback/repository/dist/index.d.ts",
+        "./node_modules/@loopback/rest/dist/index.d.ts",
+        "./node_modules/tslib/tslib.d.ts",
+        "./src/models/index.ts",
+        "./src/repositories/index.ts"
       ],
       "./src/datasources/db.datasource.ts": [
         "./node_modules/@loopback/core/dist/index.d.ts",
@@ -3908,7 +3931,8 @@
         "./node_modules/tslib/tslib.d.ts",
         "./src/models/request-model.model.ts",
         "./src/models/skills.model.ts",
-        "./src/models/todo.model.ts"
+        "./src/models/todo.model.ts",
+        "./src/models/users.model.ts"
       ],
       "./src/models/request-model.model.ts": [
         "./node_modules/@loopback/repository/dist/index.d.ts",
@@ -3922,6 +3946,10 @@
         "./node_modules/@loopback/repository/dist/index.d.ts",
         "./node_modules/tslib/tslib.d.ts"
       ],
+      "./src/models/users.model.ts": [
+        "./node_modules/@loopback/repository/dist/index.d.ts",
+        "./node_modules/tslib/tslib.d.ts"
+      ],
       "./src/openapi-spec.ts": [
         "./node_modules/@loopback/core/dist/index.d.ts",
         "./node_modules/tslib/tslib.d.ts",
@@ -3931,7 +3959,8 @@
         "./node_modules/tslib/tslib.d.ts",
         "./src/repositories/request-model.repository.ts",
         "./src/repositories/skills.repository.ts",
-        "./src/repositories/todo.repository.ts"
+        "./src/repositories/todo.repository.ts",
+        "./src/repositories/users.repository.ts"
       ],
       "./src/repositories/request-model.repository.ts": [
         "./node_modules/@loopback/core/dist/index.d.ts",
@@ -3948,6 +3977,13 @@
         "./src/models/index.ts"
       ],
       "./src/repositories/todo.repository.ts": [
+        "./node_modules/@loopback/core/dist/index.d.ts",
+        "./node_modules/@loopback/repository/dist/index.d.ts",
+        "./node_modules/tslib/tslib.d.ts",
+        "./src/datasources/index.ts",
+        "./src/models/index.ts"
+      ],
+      "./src/repositories/users.repository.ts": [
         "./node_modules/@loopback/core/dist/index.d.ts",
         "./node_modules/@loopback/repository/dist/index.d.ts",
         "./node_modules/tslib/tslib.d.ts",
@@ -5695,7 +5731,8 @@
       "./src/controllers/index.ts": [
         "./src/controllers/request.controller.ts",
         "./src/controllers/skills.controller.ts",
-        "./src/controllers/todo.controller.ts"
+        "./src/controllers/todo.controller.ts",
+        "./src/controllers/users.controller.ts"
       ],
       "./src/controllers/request.controller.ts": [
         "./node_modules/@loopback/repository/dist/index.d.ts",
@@ -5712,6 +5749,11 @@
         "./src/models/index.ts",
         "./src/repositories/index.ts",
         "./src/services/index.ts"
+      ],
+      "./src/controllers/users.controller.ts": [
+        "./node_modules/@loopback/repository/dist/index.d.ts",
+        "./src/models/index.ts",
+        "./src/repositories/index.ts"
       ],
       "./src/datasources/db.datasource.ts": [
         "./node_modules/@loopback/core/dist/index.d.ts",
@@ -5734,7 +5776,8 @@
       "./src/models/index.ts": [
         "./src/models/request-model.model.ts",
         "./src/models/skills.model.ts",
-        "./src/models/todo.model.ts"
+        "./src/models/todo.model.ts",
+        "./src/models/users.model.ts"
       ],
       "./src/models/request-model.model.ts": [
         "./node_modules/@loopback/repository/dist/index.d.ts"
@@ -5745,10 +5788,14 @@
       "./src/models/todo.model.ts": [
         "./node_modules/@loopback/repository/dist/index.d.ts"
       ],
+      "./src/models/users.model.ts": [
+        "./node_modules/@loopback/repository/dist/index.d.ts"
+      ],
       "./src/repositories/index.ts": [
         "./src/repositories/request-model.repository.ts",
         "./src/repositories/skills.repository.ts",
-        "./src/repositories/todo.repository.ts"
+        "./src/repositories/todo.repository.ts",
+        "./src/repositories/users.repository.ts"
       ],
       "./src/repositories/request-model.repository.ts": [
         "./node_modules/@loopback/repository/dist/index.d.ts",
@@ -5761,6 +5808,11 @@
         "./src/models/index.ts"
       ],
       "./src/repositories/todo.repository.ts": [
+        "./node_modules/@loopback/repository/dist/index.d.ts",
+        "./src/datasources/index.ts",
+        "./src/models/index.ts"
+      ],
+      "./src/repositories/users.repository.ts": [
         "./node_modules/@loopback/repository/dist/index.d.ts",
         "./src/datasources/index.ts",
         "./src/models/index.ts"
@@ -6171,6 +6223,7 @@
       "./src/controllers/request.controller.ts",
       "./src/controllers/skills.controller.ts",
       "./src/controllers/todo.controller.ts",
+      "./src/controllers/users.controller.ts",
       "./src/datasources/db.datasource.ts",
       "./src/datasources/geocoder.datasource.ts",
       "./src/datasources/index.ts",
@@ -6180,11 +6233,13 @@
       "./src/models/request-model.model.ts",
       "./src/models/skills.model.ts",
       "./src/models/todo.model.ts",
+      "./src/models/users.model.ts",
       "./src/openapi-spec.ts",
       "./src/repositories/index.ts",
       "./src/repositories/request-model.repository.ts",
       "./src/repositories/skills.repository.ts",
       "./src/repositories/todo.repository.ts",
+      "./src/repositories/users.repository.ts",
       "./src/sequence.ts",
       "./src/services/geocoder.service.ts",
       "./src/services/index.ts"

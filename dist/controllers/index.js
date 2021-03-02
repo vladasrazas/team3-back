@@ -8,4 +8,5 @@ const tslib_1 = require("tslib");
 tslib_1.__exportStar(require("./todo.controller"), exports);
 tslib_1.__exportStar(require("./request.controller"), exports);
 tslib_1.__exportStar(require("./skills.controller"), exports);
+tslib_1.__exportStar(require("./users.controller"), exports);
 //# sourceMappingURL=index.js.map

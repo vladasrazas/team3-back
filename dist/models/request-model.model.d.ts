@@ -8,6 +8,8 @@ export declare class RequestModel extends Entity {
     description?: string;
     is_open: boolean;
     is_matched: boolean;
+    is_confirmed: boolean;
+    performer_id: string;
     constructor(data?: Partial<RequestModel>);
 }
 export interface RequestModelRelations {
